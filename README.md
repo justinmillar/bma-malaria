@@ -4,7 +4,7 @@ This repository holds the data and R code for running the analysis from "Detecti
 
 ## Running the analyses
 
-The raw data `raw.data.csv` and a descriptive  metadata file `metadata.csv` are found in the `data/raw/` subdirectory. The analysis consists of three models: the base model, the seasonal interaction model, and the linear spline model. Each of these models can be running using the `runAnalysis()` function by specifying the argument `model = c("base", "interactions", "splines")`. The function will create a new subdirectory `data/out/` to store the outputs, and then source the specific scripts to:
+The raw data `raw-data.csv` and a descriptive  metadata file `raw-meta.csv` are found in the `data/raw/` subdirectory. The analysis consists of three models: the base model, the seasonal interaction model, and the linear spline model. Each of these models can be running using the `runAnalysis()` function by specifying the argument `model = c("base", "interactions", "splines")`. The function will create a new subdirectory `data/out/` to store the outputs, and then source the specific scripts to:
 
 * Standardize covariates (and create new covariates if neceassary)
 * Format data for the Gibbs sampler
