@@ -1,0 +1,33 @@
+Variable,Description
+ChdID,Unique ID
+Mal,"Malaria status (1 = infected, 0 = uninfected)"
+ComID,Village ID
+Gender,"Gender (1 = male, 0 = female)"
+Age,Age in months
+WQ4,"Wealth Quintile (1 = lowest, 5  = highest)"
+WQ3,"Wealth Quintile (1 = lowest, 5  = highest)"
+WQ2,"Wealth Quintile (1 = lowest, 5  = highest)"
+WQ1,"Wealth Quintile (1 = lowest, 5  = highest)"
+Eth2,"Enthicity based on caretaker's lanuage (1 = Bimoba, 2 = Konkomba, 3 = Mamprusi, 4 = Other)"
+Eth3,"Enthicity based on caretaker's lanuage (1 = Bimoba, 2 = Konkomba, 3 = Mamprusi, 4 = Other)"
+Eth4,"Enthicity based on caretaker's lanuage (1 = Bimoba, 2 = Konkomba, 3 = Mamprusi, 4 = Other)"
+MotherEd,Either (1) for high school education and above or (0) otherwise
+MotherAge,In years
+ThatchRoof,Either housing structure had a thatched roof (1) or otherwise (0)
+SurfaceWater,either (1) source of drinking water from exposed surface water or (0) otherwise
+Insurance,either personal access to health insurance (1) or not (0)
+CommHealthIns,either (1) for  80b community coverage of sampled population or (0) otherwise
+Medication,either (1) used in the past 2 weeks or (0) otherwise
+IRS_1yr,either individual household having been treated with IRS in past year (1) or not (0)
+IRS_80,either (1) for  80b community coverage or (0) otherwise
+ITN_use,either (1) if net was used in previous night or (0) otherwise
+ITN_80,either (1) for 80% community coverage or (0) otherwise
+DistHealth,Euclidean distance from active health facility at time of survey (based on survey location)
+DistUrban,Euclidean distance from center with population > 4999
+DistRoads,Euclidean distance from major roads
+DistWater,Euclidean distance from rivers and standing water bodies
+LST_Night,Average monthly nighttime temperature (in degrees Celsius) 30 days prior to a survey
+Elev,Meters above sea level
+Slope,
+log.PopDen,"Population density per 100 m grid, log-transformed"
+RainySeason,either (1) if during the rainy season or (0) if not
