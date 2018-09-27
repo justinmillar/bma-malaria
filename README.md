@@ -14,4 +14,4 @@ Each model type has it's own subdirectory for these scripts, however there are o
 
 ## Output files
 
-Running `runAnalysis()` will retain intermediate during the cleaning/creating and formatting steps, as well as the main outputs from the Gibbs sampler: `gibbs_betas.csv` and `gibbs_others.csv`. 
+Running `runAnalysis()` will retain intermediate files during the cleaning/creating and formatting steps, as well as the main outputs from the Gibbs sampler: `gibbs_betas.csv` and `gibbs_others.csv`. 
