@@ -1,6 +1,6 @@
 # Detecting local risk factors for residual malaria in northern Ghana using Bayesian model averaging
 
-This repository holds the data and R code for running the analysis from "Detecting local risk factors for residual malaria in northern Ghana using Bayesian model averaging", published in *Malaria Jounral*. This article is Open Access, so please refer to it for information on the data (and it's sources), and the underlying models and algorthim in the analysis. 
+This repository holds the data and R code for running the analysis from "[Detecting local risk factors for residual malaria in northern Ghana using Bayesian model averaging](https://malariajournal.biomedcentral.com/articles/10.1186/s12936-018-2491-2)", published in *Malaria Jounral*. This article is Open Access, so please refer to it for information on the data (and it's sources), and the underlying models and algorthim in the analysis. 
 
 ## Running the analyses
 
